@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mcsa",
+  "version": "${version}",
+  "name": "Mcsa",
+  "description": "Brings the armours from Minecraft Story Mode to Minecraft Java",
+  "authors": [
+    "chronosacaria"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mcsa/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "chronosacaria.mcsa.client.McsaClient"
+    ],
+    "main": [
+      "chronosacaria.mcsa.Mcsa"
+    ]
+  },
+  "mixins": [
+    "mcsa.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
