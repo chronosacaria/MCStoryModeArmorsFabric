@@ -40,9 +40,9 @@ public class ArmorsInit {
     public static Item SHIELD_OF_INFINITY_BOOTS;
 
     public static void init(){
-        ADAMANTIUM_IMPERVIUM_CHESTPLATE = new ArmorItemBase(McsaArmorMaterials.ADAMANTINE, EquipmentSlot.CHEST, new Item.Settings().group(Mcsa.ARMORS), "adamantium_impervium_chestplate");
-        ADAMANTIUM_IMPERVIUM_LEGGINGS = new ArmorItemBase(McsaArmorMaterials.ADAMANTINE, EquipmentSlot.LEGS, new Item.Settings().group(Mcsa.ARMORS), "adamantium_impervium_leggings");
-        ADAMANTIUM_IMPERVIUM_BOOTS = new ArmorItemBase(McsaArmorMaterials.ADAMANTINE, EquipmentSlot.FEET, new Item.Settings().group(Mcsa.ARMORS), "adamantium_impervium_boots");
+        ADAMANTIUM_IMPERVIUM_CHESTPLATE = new ArmorItemBase(McsaArmorMaterials.ADAMANTIUM, EquipmentSlot.CHEST, new Item.Settings().group(Mcsa.ARMORS), "adamantium_impervium_chestplate");
+        ADAMANTIUM_IMPERVIUM_LEGGINGS = new ArmorItemBase(McsaArmorMaterials.ADAMANTIUM, EquipmentSlot.LEGS, new Item.Settings().group(Mcsa.ARMORS), "adamantium_impervium_leggings");
+        ADAMANTIUM_IMPERVIUM_BOOTS = new ArmorItemBase(McsaArmorMaterials.ADAMANTIUM, EquipmentSlot.FEET, new Item.Settings().group(Mcsa.ARMORS), "adamantium_impervium_boots");
 
         SWORDBREAKER_CHESTPLATE = new ArmorItemBase(McsaArmorMaterials.SWORDBREAKER, EquipmentSlot.CHEST, new Item.Settings().group(Mcsa.ARMORS), "swordbreaker_chestplate");
         SWORDBREAKER_LEGGINGS = new ArmorItemBase(McsaArmorMaterials.SWORDBREAKER, EquipmentSlot.LEGS, new Item.Settings().group(Mcsa.ARMORS), "swordbreaker_leggings");

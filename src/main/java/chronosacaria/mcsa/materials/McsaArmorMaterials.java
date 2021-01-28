@@ -55,7 +55,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
      *
      */
 
-    ADAMANTINE("adamatine",
+    ADAMANTIUM("adamantium",
             7,
             McsaStatsConfig.config.getAdamatineArmor(),
             15,
@@ -66,7 +66,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
 
     SWORDBREAKER("swordbreaker",
             7,
-            McsaStatsConfig.config.getAdamatineArmor(),
+            McsaStatsConfig.config.getSwordbreakerArmor(),
             15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f,
@@ -75,7 +75,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
 
     DRAGONSBANE("dragonsbane",
             7,
-            McsaStatsConfig.config.getAdamatineArmor(),
+            McsaStatsConfig.config.getDragonsbaneArmor(),
             15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f,
@@ -84,7 +84,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
 
     ENDER_DEFENDER("ender",
             7,
-            McsaStatsConfig.config.getAdamatineArmor(),
+            McsaStatsConfig.config.getEnderDefenderArmor(),
             15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f,
@@ -93,7 +93,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
 
     GOLDEN_GOLIATH("golden",
             7,
-            McsaStatsConfig.config.getAdamatineArmor(),
+            McsaStatsConfig.config.getGoldenGoliathArmor(),
             15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f,
@@ -102,7 +102,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
 
     STAR_SHIELD("star",
             7,
-            McsaStatsConfig.config.getAdamatineArmor(),
+            McsaStatsConfig.config.getStarShield(),
             15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f,
@@ -111,7 +111,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
 
     REDSTONE_RIOT("riot",
             7,
-            McsaStatsConfig.config.getAdamatineArmor(),
+            McsaStatsConfig.config.getRedstoneRiot(),
             15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f,
@@ -120,14 +120,12 @@ public enum McsaArmorMaterials implements ArmorMaterial {
 
     SHIELD_OF_INFINITY("infinity",
             7,
-            McsaStatsConfig.config.getAdamatineArmor(),
+            McsaStatsConfig.config.getShieldOfInfinity(),
             15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f,
             0.0f,
             () -> {return Ingredient.ofItems(Items.LEATHER);});
-
-    ;
 
     private static final int[] baseDurability = new int[]{12,14,15,10};
     private final String name;

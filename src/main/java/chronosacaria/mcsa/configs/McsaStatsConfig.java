@@ -16,12 +16,20 @@ public class McsaStatsConfig implements ConfigData {
 
     @Comment("Adamantine Impervium Armor: Feet, Legs, Body, Head")
     public int[] AdamatineArmor = {4,7,9,4};
-    public int[] SwordbreakerArmor = {4,7,9,4};
     public int[] DragonsbaneArmor = {4,7,9,4};
     public int[] EnderDefenderArmor = {4,7,9,4};
+    public int[] GoldenGoliathArmor = {4,7,9,4};
+    public int[] RedstoneRiot = {4,7,9,4};
+    public int[] ShieldOfInfinity = {4,7,9,4};
+    public int[] StarShield = {4,7,9,4};
+    public int[] SwordbreakerArmor = {4,7,9,4};
 
     public int[] getAdamatineArmor() { return AdamatineArmor; }
-    public int[] getSwordbreakerArmor() { return SwordbreakerArmor; }
     public int[] getDragonsbaneArmor() { return DragonsbaneArmor; }
     public int[] getEnderDefenderArmor() { return EnderDefenderArmor; }
+    public int[] getGoldenGoliathArmor() { return GoldenGoliathArmor; }
+    public int[] getRedstoneRiot() { return RedstoneRiot; }
+    public int[] getShieldOfInfinity() { return ShieldOfInfinity; }
+    public int[] getStarShield() { return StarShield; }
+    public int[] getSwordbreakerArmor() { return SwordbreakerArmor; }
 }
