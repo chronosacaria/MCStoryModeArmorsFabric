@@ -42,14 +42,6 @@ public enum McsaArmorMaterials implements ArmorMaterial {
      * Netherite = 3/6/8/3
      * Gold = 1/3/5/2
      *
-     * ChampionArmorItem, - medium
-     * DarkArmorItem, - heavy
-     * PlateArmorItem, - heavy
-     * GrimArmorItem uniq, - bone
-     * ScaleMailItem, - medium
-     * MercenaryArmorItem, - heavy
-     * OcelotArmorItem, - pelt
-     * ReinforcedMailItem - medium
      * reduce incoming damage by 35% => +2 armor toughness
      *
      *
