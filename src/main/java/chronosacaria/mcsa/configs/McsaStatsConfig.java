@@ -14,7 +14,7 @@ public class McsaStatsConfig implements ConfigData {
 
     public static final McsaStatsConfig config = AutoConfig.getConfigHolder(McsaStatsConfig.class).getConfig();
 
-    @Comment("Adamantine Impervium Armor: Feet, Legs, Body, Head")
+    @Comment("Feet, Legs, Body, Head")
     public int[] AdamatineArmor = {4,7,9,4};
     public int[] DragonsbaneArmor = {4,7,9,4};
     public int[] EnderDefenderArmor = {4,7,9,4};
@@ -23,6 +23,7 @@ public class McsaStatsConfig implements ConfigData {
     public int[] ShieldOfInfinity = {4,7,9,4};
     public int[] StarShield = {4,7,9,4};
     public int[] SwordbreakerArmor = {4,7,9,4};
+    public int[] TimsArmor = {4,7,9,4};
 
     public int[] getAdamatineArmor() { return AdamatineArmor; }
     public int[] getDragonsbaneArmor() { return DragonsbaneArmor; }
@@ -32,4 +33,5 @@ public class McsaStatsConfig implements ConfigData {
     public int[] getShieldOfInfinity() { return ShieldOfInfinity; }
     public int[] getStarShield() { return StarShield; }
     public int[] getSwordbreakerArmor() { return SwordbreakerArmor; }
+    public int[] getTimsArmor() { return TimsArmor; }
 }
