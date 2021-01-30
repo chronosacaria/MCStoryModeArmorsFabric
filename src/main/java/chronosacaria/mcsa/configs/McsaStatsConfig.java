@@ -18,25 +18,25 @@ public class McsaStatsConfig implements ConfigData {
     public int[] AdamatineArmor = {4,7,9,4};
     public int[] ChampionPetraArmor = {4,7,9,4};
     public int[] DragonsbaneArmor = {4,7,9,4};
-    public int[] EllegaardArmor = {4,7,9,4};
-    public int[] EndermanSorenArmor = {4,7,9,4};
+    public int[] EllegaardArmor = {3,6,8,3};
+    public int[] EndermanSorenArmor = {3,6,8,3};
     public int[] EnderDefenderArmor = {4,7,9,4};
-    public int[] GabrielArmor = {4,7,9,4};
+    public int[] GabrielArmor = {3,6,8,3};
     public int[] GoldenGoliathArmor = {4,7,9,4};
     public int[] GoldenGoliathCircuitryArmor = {4,7,9,4};
     public int[] HarpersHeadsetArmor = {4,7,9,4};
-    public int[] IvorArmor = {4,7,9,4};
-    public int[] LukasArmor = {4,7,9,4};
-    public int[] MagnusArmor = {4,7,9,4};
-    public int[] NinjaIvorArmor = {4,7,9,4};
-    public int[] OliviaArmor = {4,7,9,4};
-    public int[] PetraArmor = {4,7,9,4};
+    public int[] IvorArmor = {3,6,8,3};
+    public int[] LukasArmor = {3,6,8,3};
+    public int[] MagnusArmor = {3,6,8,3};
+    public int[] NinjaIvorArmor = {3,6,8,3};
+    public int[] OliviaArmor = {3,6,8,3};
+    public int[] PetraArmor = {3,6,8,3};
     public int[] RedstoneRiot = {4,7,9,4};
     public int[] ShieldOfInfinity = {4,7,9,4};
-    public int[] SorenArmor = {4,7,9,4};
+    public int[] SorenArmor = {3,6,8,3};
     public int[] StarShield = {4,7,9,4};
     public int[] SwordbreakerArmor = {4,7,9,4};
-    public int[] TimsArmor = {4,7,9,4};
+    public int[] TimsArmor = {3,6,8,3};
 
     public int[] getAdamatineArmor() { return AdamatineArmor; }
     public int[] getChampionPetraArmor() { return ChampionPetraArmor; }

@@ -1,6 +1,7 @@
 package chronosacaria.mcsa;
 
 import chronosacaria.mcsa.init.ArmorsInit;
+import chronosacaria.mcsa.init.LootInit;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -17,6 +18,8 @@ public class Mcsa implements ModInitializer {
 
     @Override
     public void onInitialize() {
+
         ArmorsInit.init();
+        LootInit.init();
     }
 }
