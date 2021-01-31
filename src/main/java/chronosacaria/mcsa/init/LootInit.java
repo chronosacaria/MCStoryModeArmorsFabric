@@ -67,93 +67,93 @@ public class LootInit {
             if (villageArmorerLootTables(id)){
                 FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
                         // Ellegaard
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.ELLEGAARD_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.ELLEGAARD_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.ELLEGAARD_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.ELLEGAARD_HELMET))
 
                         // Gabriel
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.GABRIEL_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.GABRIEL_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.GABRIEL_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.GABRIEL_HELMET))
 
                         // Ivor
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.IVOR_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.IVOR_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.IVOR_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.IVOR_HELMET))
 
                         // Lukas
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.LUKAS_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.LUKAS_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.LUKAS_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.LUKAS_HELMET))
 
                         // Magnus
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.MAGNUS_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.MAGNUS_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.MAGNUS_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.MAGNUS_HELMET))
 
                         // Olivia
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.OLIVIA_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.OLIVIA_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.OLIVIA_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.OLIVIA_HELMET))
 
                         // Petra
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.PETRA_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.PETRA_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.PETRA_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.PETRA_HELMET))
 
                         // Soren
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.SOREN_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.SOREN_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.SOREN_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.SOREN_HELMET))
 
                         // Tim
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.TIMS_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.TIMS_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.TIMS_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.15F))
                         .with(ItemEntry.builder(ArmorsInit.TIMS_HELMET));
                 supplier.pool(poolBuilder);
             }
@@ -166,41 +166,41 @@ public class LootInit {
                 FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
 
                         // Dragonbane
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.DRAGONSBANE_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.DRAGONSBANE_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.DRAGONSBANE_CHESTPLATE))
 
                         // Ender Defender
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.ENDER_DEFENDER_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.ENDER_DEFENDER_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.ENDER_DEFENDER_CHESTPLATE))
 
                         // Golden Goliath & Golden Goliath Circuitry
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.GOLDEN_GOLIATH_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.GOLDEN_GOLIATH_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.GOLDEN_GOLIATH_CHESTPLATE))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.GOLDEN_GOLIATH_CIRCUITRY_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.GOLDEN_GOLIATH_CIRCUITRY_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.GOLDEN_GOLIATH_CIRCUITRY_CHESTPLATE))
 
                         // Redstone Riot
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.REDSTONE_RIOT_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.REDSTONE_RIOT_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.REDSTONE_RIOT_CHESTPLATE));
                 supplier.pool(poolBuilder);
             }
@@ -213,27 +213,27 @@ public class LootInit {
                 FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
 
                         // Shield of Infinity
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.SHIELD_OF_INFINITY_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.SHIELD_OF_INFINITY_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.SHIELD_OF_INFINITY_CHESTPLATE))
 
                         // Star Shield
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.STAR_SHIELD_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.STAR_SHIELD_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.STAR_SHIELD_CHESTPLATE))
 
                         // Swordbreaker
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.SWORDBREAKER_BOOTS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.SWORDBREAKER_LEGGINGS))
-                        .rolls(new BinomialLootTableRange(1, 0.05F))
+                        .rolls(new BinomialLootTableRange(1, 0.1F))
                         .with(ItemEntry.builder(ArmorsInit.SWORDBREAKER_CHESTPLATE));
                 supplier.pool(poolBuilder);
             }

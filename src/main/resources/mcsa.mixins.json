@@ -4,6 +4,7 @@
   "package": "chronosacaria.mcsa.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "EndermanSuitNoAggroMixin"
   ],
   "client": [
   ],

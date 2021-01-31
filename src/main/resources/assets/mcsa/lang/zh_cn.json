@@ -1,0 +1,101 @@
+{
+  "itemGroup.mcsa.armor": "盔甲的MC Story Mode",
+
+  "item.mcsa.adamantium_impervium_chestplate"       : "不可能精金胸甲",
+  "item.mcsa.adamantium_impervium_leggings"         : "不可能精金护腿",
+  "item.mcsa.adamantium_impervium_boots"            : "不可能精金靴子",
+
+  "item.mcsa.champion_petra_helmet"                 : "头盔的Petra冠军",
+  "item.mcsa.champion_petra_chestplate"             : "胸甲的Petra冠军",
+  "item.mcsa.champion_petra_leggings"               : "护腿的Petra冠军",
+  "item.mcsa.champion_petra_boots"                  : "靴子的Petra冠军",
+
+  "item.mcsa.dragonsbane_chestplate"                : "龙诛戮胸甲",
+  "item.mcsa.dragonsbane_leggings"                  : "龙诛戮护腿",
+  "item.mcsa.dragonsbane_boots"                     : "龙诛戮靴子",
+
+  "item.mcsa.ellegaard_helmet"                      : "头盔的Ellegaard",
+  "item.mcsa.ellegaard_chestplate"                  : "胸甲的Ellegaard",
+  "item.mcsa.ellegaard_leggings"                    : "护腿的Ellegaard",
+  "item.mcsa.ellegaard_boots"                       : "靴子的Ellegaard",
+
+  "item.mcsa.ender_defender_chestplate"             : "末影后卫胸甲",
+  "item.mcsa.ender_defender_leggings"               : "末影后卫护腿",
+  "item.mcsa.ender_defender_boots"                  : "末影后卫靴子",
+
+  "item.mcsa.enderman_soren_helmet"                 : "末影人服装头盔的Soren",
+  "item.mcsa.enderman_soren_chestplate"             : "末影人服装胸甲的Soren",
+  "item.mcsa.enderman_soren_leggings"               : "末影人服装护腿的Soren",
+  "item.mcsa.enderman_soren_boots"                  : "末影人服装靴子的Soren",
+
+  "item.mcsa.gabriel_helmet"                        : "头盔的Gabriel",
+  "item.mcsa.gabriel_chestplate"                    : "胸甲的Gabriel",
+  "item.mcsa.gabriel_leggings"                      : "护腿的Gabriel",
+  "item.mcsa.gabriel_boots"                         : "靴子的Gabriel",
+
+  "item.mcsa.golden_goliath_chestplate"             : "金巨人胸甲",
+  "item.mcsa.golden_goliath_leggings"               : "金巨人护腿",
+  "item.mcsa.golden_goliath_boots"                  : "金巨人靴子",
+
+  "item.mcsa.golden_goliath_circuitry_chestplate"   : "金巨人的电路胸甲",
+  "item.mcsa.golden_goliath_circuitry_leggings"     : "金巨人的电路护腿",
+  "item.mcsa.golden_goliath_circuitry_boots"        : "金巨人的电路靴子",
+
+  "item.mcsa.harpers_headset_helmet"                : "耳机的Harper",
+
+  "item.mcsa.ivor_helmet"                           : "冠的Ivor",
+  "item.mcsa.ivor_chestplate"                       : "胸甲的Ivor",
+  "item.mcsa.ivor_leggings"                         : "护腿的Ivor",
+  "item.mcsa.ivor_boots"                            : "靴子的Ivor",
+
+  "item.mcsa.lukas_helmet"                          : "风镜的Lukas",
+  "item.mcsa.lukas_chestplate"                      : "胸甲的Lukas",
+  "item.mcsa.lukas_leggings"                        : "护腿的Lukas",
+  "item.mcsa.lukas_boots"                           : "靴子的Lukas",
+
+  "item.mcsa.magnus_helmet"                         : "头盔的Magnus",
+  "item.mcsa.magnus_chestplate"                     : "胸甲的Magnus",
+  "item.mcsa.magnus_leggings"                       : "护腿的Magnus",
+  "item.mcsa.magnus_boots"                          : "靴子的Magnus",
+
+  "item.mcsa.ninja_ivor_helmet"                     : "忍者面具的Ivor",
+  "item.mcsa.ninja_ivor_chestplate"                 : "忍者胸甲的Ivor",
+  "item.mcsa.ninja_ivor_leggings"                   : "忍者护腿的Ivor",
+  "item.mcsa.ninja_ivor_boots"                      : "忍者靴子的Ivor",
+
+  "item.mcsa.olivia_helmet"                         : "头盔的Olivia",
+  "item.mcsa.olivia_chestplate"                     : "胸甲的Olivia",
+  "item.mcsa.olivia_leggings"                       : "护腿的Olivia",
+  "item.mcsa.olivia_boots"                          : "靴子的Olivia",
+
+  "item.mcsa.petra_helmet"                          : "头盔的Petra",
+  "item.mcsa.petra_chestplate"                      : "胸甲的Petra",
+  "item.mcsa.petra_leggings"                        : "护腿的Petra",
+  "item.mcsa.petra_boots"                           : "靴子的Petra",
+
+  "item.mcsa.redstone_riot_chestplate"              : "红石暴动胸甲",
+  "item.mcsa.redstone_riot_leggings"                : "红石暴动护腿",
+  "item.mcsa.redstone_riot_boots"                   : "红石暴动靴子",
+
+  "item.mcsa.shield_of_infinity_chestplate"         : "无限盾胸甲",
+  "item.mcsa.shield_of_infinity_leggings"           : "无限盾护腿",
+  "item.mcsa.shield_of_infinity_boots"              : "无限盾靴子",
+
+  "item.mcsa.soren_helmet"                          : "帽的Soren",
+  "item.mcsa.soren_chestplate"                      : "胸甲的Soren",
+  "item.mcsa.soren_leggings"                        : "护腿的Soren",
+  "item.mcsa.soren_boots"                           : "靴子的Soren",
+
+  "item.mcsa.star_shield_chestplate"                : "星盾胸甲",
+  "item.mcsa.star_shield_leggings"                  : "星盾护腿",
+  "item.mcsa.star_shield_boots"                     : "星盾靴子",
+
+  "item.mcsa.swordbreaker_chestplate"               : "断剑者胸甲",
+  "item.mcsa.swordbreaker_leggings"                 : "断剑者护腿",
+  "item.mcsa.swordbreaker_boots"                    : "断剑者靴子",
+
+  "item.mcsa.tim_helmet"                            : "头盔的Tim",
+  "item.mcsa.tim_chestplate"                        : "胸甲的Tim",
+  "item.mcsa.tim_leggings"                          : "护腿的Tim",
+  "item.mcsa.tim_boots"                             : "靴子的Tim"
+}
