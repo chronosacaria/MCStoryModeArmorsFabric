@@ -19,9 +19,9 @@ public class EndermanSuitNoAggroMixin {
         ItemStack bootsStack = (ItemStack)player.inventory.armor.get(0);
 
         if (helmetStack.getItem() == ArmorsInit.ENDERMAN_SOREN_HELMET.asItem()
-                && chestplateStack.getItem() == ArmorsInit.ENDERMAN_SOREN_CHESTPLATE
-                && leggingsStack.getItem() == ArmorsInit.ENDERMAN_SOREN_LEGGINGS
-                && bootsStack.getItem() == ArmorsInit.ENDERMAN_SOREN_BOOTS){
+                && chestplateStack.getItem() == ArmorsInit.ENDERMAN_SOREN_CHESTPLATE.asItem()
+                && leggingsStack.getItem() == ArmorsInit.ENDERMAN_SOREN_LEGGINGS.asItem()
+                && bootsStack.getItem() == ArmorsInit.ENDERMAN_SOREN_BOOTS.asItem()){
             cir.setReturnValue(false);
         }
     }

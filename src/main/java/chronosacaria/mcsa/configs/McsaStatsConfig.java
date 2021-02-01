@@ -31,6 +31,7 @@ public class McsaStatsConfig implements ConfigData {
     public int[] NinjaIvorArmor = {3,6,8,3};
     public int[] OliviaArmor = {3,6,8,3};
     public int[] PetraArmor = {3,6,8,3};
+    public int[] PrismarineArmor = {3,6,8,3};
     public int[] RedstoneRiot = {4,7,9,4};
     public int[] ShieldOfInfinity = {4,7,9,4};
     public int[] SorenArmor = {3,6,8,3};
@@ -54,6 +55,7 @@ public class McsaStatsConfig implements ConfigData {
     public int[] getNinjaIvorArmor() { return NinjaIvorArmor; }
     public int[] getOliviaArmor() { return OliviaArmor; }
     public int[] getPetraArmor() { return PetraArmor; }
+    public int[] getPrismarineArmor() { return PrismarineArmor; }
     public int[] getRedstoneRiot() { return RedstoneRiot; }
     public int[] getShieldOfInfinity() { return ShieldOfInfinity; }
     public int[] getSorenArmor() { return SorenArmor; }

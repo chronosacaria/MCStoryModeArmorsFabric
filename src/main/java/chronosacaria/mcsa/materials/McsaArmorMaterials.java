@@ -15,38 +15,7 @@ import java.util.function.Supplier;
 
 public enum McsaArmorMaterials implements ArmorMaterial {
     //Armor order: boots, leggings, chestplate, helmet
-
-    /*
-     * Durability:
-     * Leather - 5
-     * Iron = 14
-     * Turtle = 25
-     * Diamond = 33
-     * Netherite = 37
-     * Gold =37
-     *
-     * Enchantability:
-     * Leather = 15
-     * Iron = 9
-     * Turtle = 9
-     * Diamond = 10
-     * Netherite = 15
-     * Gold = 25
-     *
-     * Damage Reduction Amounts (boots, leggings, chestplate, helmet:
-     * Leather = 1/2/3/1
-     * Chain = 1/4/5/2
-     * Iron = 2/5/6/2
-     * Diamond = 3/6/8/3
-     * Turtle = 2/5/6/2
-     * Netherite = 3/6/8/3
-     * Gold = 1/3/5/2
-     *
-     * reduce incoming damage by 35% => +2 armor toughness
-     *
-     *
-     */
-
+    
     ADAMANTIUM("adamantium",
             40,
             McsaStatsConfig.config.getAdamatineArmor(),
@@ -54,7 +23,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             3.0f,
             3.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     CHAMPION_PETRA("championpetra",
             37,
@@ -63,7 +32,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             2.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     DRAGONSBANE("dragonsbane",
             37,
@@ -72,7 +41,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             5.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     ELLEGAARD("ellegaard",
             37,
@@ -81,7 +50,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     ENDER_DEFENDER("ender",
             37,
@@ -90,7 +59,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     ENDERMAN_SOREN("enderman",
             35,
@@ -99,7 +68,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     GABRIEL("gabriel",
             37,
@@ -108,7 +77,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     GOLDEN_GOLIATH("golden",
             37,
@@ -117,7 +86,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     GOLDEN_GOLIATH_CIRCUITRY("goldenu",
             37,
@@ -126,7 +95,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     HARPERS_HEADSET("harper",
             37,
@@ -135,7 +104,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     IVOR("ivor",
             37,
@@ -144,7 +113,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     LUKAS("lukas",
             37,
@@ -153,7 +122,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     MAGNUS("magnus",
             37,
@@ -162,7 +131,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     NINJA_IVOR_ARMOUR("ninja",
             37,
@@ -171,7 +140,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             1.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     OLIVIA("olivia",
             37,
@@ -180,7 +149,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     PETRA("petra",
             37,
@@ -189,7 +158,16 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             2.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
+
+    PRISMARINE("prismarine",
+            37,
+            McsaStatsConfig.config.getPrismarineArmor(),
+            25,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
+            2.0f,
+            0.0f,
+            () -> {return Ingredient.ofItems(Items.PRISMARINE_BRICKS);}),
 
     REDSTONE_RIOT("riot",
             37,
@@ -198,7 +176,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             3.0f,
             2.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     SHIELD_OF_INFINITY("infinity",
             37,
@@ -207,7 +185,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             3.0f,
             2.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     SOREN("soren",
             37,
@@ -216,7 +194,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             1.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     STAR_SHIELD("star",
             37,
@@ -225,7 +203,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             3.0f,
             2.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     SWORDBREAKER("swordbreaker",
             37,
@@ -234,7 +212,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             1.0f,
             5.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);}),
+            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
 
     TIMS_ARMOUR("tim",
             25,
@@ -243,7 +221,7 @@ public enum McsaArmorMaterials implements ArmorMaterial {
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
             0.0f,
             0.0f,
-            () -> {return Ingredient.ofItems(Items.LEATHER);});
+            () -> {return Ingredient.ofItems(Items.DIAMOND);});
 
 
     private static final int[] baseDurability = new int[]{12,14,15,10};

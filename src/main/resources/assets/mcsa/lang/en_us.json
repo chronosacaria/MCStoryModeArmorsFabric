@@ -1,6 +1,7 @@
 {
   "itemGroup.mcsa.armor": "MC Story Mode Armors",
 
+  "item.mcsa.adamantium_impervium_helmet"           : "Adamantium Impervium Helmet",
   "item.mcsa.adamantium_impervium_chestplate"       : "Adamantium Impervium Chestplate",
   "item.mcsa.adamantium_impervium_leggings"         : "Adamantium Impervium Leggings",
   "item.mcsa.adamantium_impervium_boots"            : "Adamantium Impervium Boots",
@@ -10,6 +11,7 @@
   "item.mcsa.champion_petra_leggings"               : "Champion Petra Leggings",
   "item.mcsa.champion_petra_boots"                  : "Champion Petra Boots",
 
+  "item.mcsa.dragonsbane_helmet"                    : "Dragonsbane Helmet",
   "item.mcsa.dragonsbane_chestplate"                : "Dragonsbane Chestplate",
   "item.mcsa.dragonsbane_leggings"                  : "Dragonsbane Leggings",
   "item.mcsa.dragonsbane_boots"                     : "Dragonsbane Boots",
@@ -19,6 +21,7 @@
   "item.mcsa.ellegaard_leggings"                    : "Ellegaard's Leggings",
   "item.mcsa.ellegaard_boots"                       : "Ellegaard's Boots",
 
+  "item.mcsa.ender_defender_helmet"                 : "Ender Defender Helmet",
   "item.mcsa.ender_defender_chestplate"             : "Ender Defender Chestplate",
   "item.mcsa.ender_defender_leggings"               : "Ender Defender Leggings",
   "item.mcsa.ender_defender_boots"                  : "Ender Defender Boots",
@@ -33,13 +36,15 @@
   "item.mcsa.gabriel_leggings"                      : "Gabriel's Leggings",
   "item.mcsa.gabriel_boots"                         : "Gabriel's Boots",
 
+  "item.mcsa.golden_goliath_helmet"                 : "Golden Goliath Helmet",
   "item.mcsa.golden_goliath_chestplate"             : "Golden Goliath Chestplate",
   "item.mcsa.golden_goliath_leggings"               : "Golden Goliath Leggings",
   "item.mcsa.golden_goliath_boots"                  : "Golden Goliath Boots",
 
-  "item.mcsa.golden_goliath_circuitry_chestplate"   : "Golden Goliath Chestplate",
-  "item.mcsa.golden_goliath_circuitry_leggings"     : "Golden Goliath Leggings",
-  "item.mcsa.golden_goliath_circuitry_boots"        : "Golden Goliath Boots",
+  "item.mcsa.golden_goliath_circuitry_helmet"       : "Golden Goliath Circuitry Helmet",
+  "item.mcsa.golden_goliath_circuitry_chestplate"   : "Golden Goliath Circuitry Chestplate",
+  "item.mcsa.golden_goliath_circuitry_leggings"     : "Golden Goliath Circuitry Leggings",
+  "item.mcsa.golden_goliath_circuitry_boots"        : "Golden Goliath Circuitry Boots",
 
   "item.mcsa.harpers_headset_helmet"                : "Harper's Headset",
 
@@ -73,10 +78,17 @@
   "item.mcsa.petra_leggings"                        : "Petra's Leggings",
   "item.mcsa.petra_boots"                           : "Petra's Boots",
 
+  "item.mcsa.prismarine_soldier_helmet"             : "Prismarine Soldier Helmet",
+  "item.mcsa.prismarine_soldier_chestplate"         : "Prismarine Soldier Chestplate",
+  "item.mcsa.prismarine_soldier_leggings"           : "Prismarine Soldier Leggings",
+  "item.mcsa.prismarine_soldier_boots"              : "Prismarine Soldier Boots",
+
+  "item.mcsa.redstone_riot_helmet"                  : "Redstone Riot Helmet",
   "item.mcsa.redstone_riot_chestplate"              : "Redstone Riot Chestplate",
   "item.mcsa.redstone_riot_leggings"                : "Redstone Riot Leggings",
   "item.mcsa.redstone_riot_boots"                   : "Redstone Riot Boots",
 
+  "item.mcsa.shield_of_infinity_helmet"             : "Shield of Infinity Helmet",
   "item.mcsa.shield_of_infinity_chestplate"         : "Shield of Infinity Chestplate",
   "item.mcsa.shield_of_infinity_leggings"           : "Shield of Infinity Leggings",
   "item.mcsa.shield_of_infinity_boots"              : "Shield of Infinity Boots",
@@ -86,13 +98,15 @@
   "item.mcsa.soren_leggings"                        : "Soren's Leggings",
   "item.mcsa.soren_boots"                           : "Soren's Boots",
 
+  "item.mcsa.star_shield_helmet"                    : "Star Shield Helmet",
   "item.mcsa.star_shield_chestplate"                : "Star Shield Chestplate",
   "item.mcsa.star_shield_leggings"                  : "Star Shield Leggings",
   "item.mcsa.star_shield_boots"                     : "Star Shield Boots",
 
-  "item.mcsa.swordbreaker_chestplate"              : "Swordbreaker Chestplate",
-  "item.mcsa.swordbreaker_leggings"                : "Swordbreaker Leggings",
-  "item.mcsa.swordbreaker_boots"                   : "Swordbreaker Boots",
+  "item.mcsa.swordbreaker_helmet"                   : "Swordbreaker Helmet",
+  "item.mcsa.swordbreaker_chestplate"               : "Swordbreaker Chestplate",
+  "item.mcsa.swordbreaker_leggings"                 : "Swordbreaker Leggings",
+  "item.mcsa.swordbreaker_boots"                    : "Swordbreaker Boots",
 
   "item.mcsa.tim_helmet"                            : "Tim's Hat",
   "item.mcsa.tim_chestplate"                        : "Tim's Chestplate",
