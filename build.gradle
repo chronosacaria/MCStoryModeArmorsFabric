@@ -28,6 +28,7 @@ dependencies {
 
     modApi("me.sargunvohra.mcmods:autoconfig1u:${autoconfig1u_version}") {
         exclude(group: "net.fabricmc.fabric-api")
+        include "me.sargunvohra.mcmods:autoconfig1u:${autoconfig1u_version}"
     }
 }
 

@@ -1,6 +1,8 @@
 package chronosacaria.mcsa.mixin;
 
-import chronosacaria.mcsa.init.ArmorsInit;
+import chronosacaria.mcsa.items.ArmorSets;
+import chronosacaria.mcsa.registry.ArmorsRegistry;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.mob.EndermanEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -13,17 +15,15 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class EndermanSuitNoAggroMixin {
     @Inject(method = "isPlayerStaring", at = @At("HEAD"), cancellable = true)
     private void isPlayerStaring(PlayerEntity player, CallbackInfoReturnable<Boolean> cir){
-        ItemStack helmetStack = (ItemStack)player.inventory.armor.get(3);
-        ItemStack chestplateStack = (ItemStack)player.inventory.armor.get(2);
-        ItemStack leggingsStack = (ItemStack)player.inventory.armor.get(1);
-        ItemStack bootsStack = (ItemStack)player.inventory.armor.get(0);
+        ItemStack helmetStack = player.inventory.armor.get(3);
+        ItemStack chestplateStack = player.inventory.armor.get(2);
+        ItemStack leggingsStack = player.inventory.armor.get(1);
+        ItemStack bootsStack = player.inventory.armor.get(0);
 
-        if (helmetStack.getItem() == ArmorsInit.ENDERMAN_SOREN_HELMET.asItem()
-                && chestplateStack.getItem() == ArmorsInit.ENDERMAN_SOREN_CHESTPLATE.asItem()
-                && leggingsStack.getItem() == ArmorsInit.ENDERMAN_SOREN_LEGGINGS.asItem()
-                && bootsStack.getItem() == ArmorsInit.ENDERMAN_SOREN_BOOTS.asItem()){
+        if (helmetStack.getItem() == ArmorsRegistry.armorItems.get(ArmorSets.ENDERMAN_SOREN).get(EquipmentSlot.HEAD).asItem()
+                && chestplateStack.getItem() == ArmorsRegistry.armorItems.get(ArmorSets.ENDERMAN_SOREN).get(EquipmentSlot.CHEST).asItem()
+                && leggingsStack.getItem() == ArmorsRegistry.armorItems.get(ArmorSets.ENDERMAN_SOREN).get(EquipmentSlot.LEGS).asItem()
+                && bootsStack.getItem() == ArmorsRegistry.armorItems.get(ArmorSets.ENDERMAN_SOREN).get(EquipmentSlot.FEET).asItem())
             cir.setReturnValue(false);
-        }
     }
-
 }

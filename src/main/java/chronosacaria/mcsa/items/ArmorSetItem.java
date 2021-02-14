@@ -1,6 +1,8 @@
-package chronosacaria.mcsa.bases;
+package chronosacaria.mcsa.items;
 
 import chronosacaria.mcsa.Mcsa;
+import chronosacaria.mcsa.configs.ArmorStats;
+import chronosacaria.mcsa.items.ArmorSets;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 import net.minecraft.entity.EquipmentSlot;
@@ -9,12 +11,18 @@ import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 import java.util.UUID;
 
-public class ArmorItemBase extends ArmorItem {
+import static chronosacaria.mcsa.configs.McsaConfig.config;
+
+
+public class ArmorSetItem extends ArmorItem {
     private static final UUID[] ARMOR_MODIFIERS = new UUID[]{
             UUID.fromString("845DB27C-C624-495F-8C9F-6020A9A58B6B"),
             UUID.fromString("D8499B04-0E66-4726-AB29-64469D734E0D"),
@@ -22,14 +30,15 @@ public class ArmorItemBase extends ArmorItem {
             UUID.fromString("2AD3F246-FEE1-4E67-B886-69FD380BB150")};
 
 
-    private final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
+    protected final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
+    protected final ArmorSets set;
 
-    public ArmorItemBase(ArmorMaterial armorMaterial, EquipmentSlot slot, Settings settings,
-                               String id){
-        super(armorMaterial, slot, settings);
+    public ArmorSetItem(ArmorSets set, EquipmentSlot slot){
+        super(set, slot, new Item.Settings().group(Mcsa.ARMORS_GROUP));
+        this.set = set;
 
-        int protection = armorMaterial.getProtectionAmount(slot);
-        float toughness = armorMaterial.getToughness();
+        int protection = set.getProtectionAmount(slot);
+        float toughness = set.getToughness();
 
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
         UUID uuid = ARMOR_MODIFIERS[slot.getEntitySlotId()];
@@ -41,12 +50,18 @@ public class ArmorItemBase extends ArmorItem {
             builder.put(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, new EntityAttributeModifier(uuid, "Armor knockback resistance",
                     this.knockbackResistance, EntityAttributeModifier.Operation.ADDITION));
         }
+
+        ArmorStats armorStats = config.armorStats.get(set);
         this.attributeModifiers = builder.build();
-        Registry.register(Registry.ITEM, new Identifier(Mcsa.MOD_ID, id), this);
     }
 
     @Override
     public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(EquipmentSlot slot){
         return slot == this.slot ? this.attributeModifiers : super.getAttributeModifiers(slot);
+    }
+
+    @Override
+    public Rarity getRarity(ItemStack itemStack){
+        return set.getRarity();
     }
 }

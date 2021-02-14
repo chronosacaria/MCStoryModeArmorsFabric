@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mcsa",
   "version": "${version}",
-  "name": "Mcsa",
+  "name": "MC Story Mode Armor",
   "description": "Brings the armours from Minecraft Story Mode to Minecraft Java",
   "authors": [
     "chronosacaria"
