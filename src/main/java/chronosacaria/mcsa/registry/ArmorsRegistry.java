@@ -53,10 +53,13 @@ public class ArmorsRegistry {
         for (ArmorSets set : ArmorSets.values()){
             EnumSet<EquipmentSlot> slots;
 
-            if (set == ArmorSets.HARPERS_HEADSET) {
-                slots = EnumSet.of(HEAD);
-            } else {
-                slots = EnumSet.of(HEAD, CHEST, LEGS, FEET);
+            switch (set) {
+                case HARPERS_HEADSET:
+                case WHITE_PUMPKIN:
+                    slots = EnumSet.of(HEAD);
+                    break;
+                default:
+                    slots = EnumSet.of(HEAD, CHEST, LEGS, FEET);
             }
             registerArmor(set, slots);
         }

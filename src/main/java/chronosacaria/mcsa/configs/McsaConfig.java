@@ -70,6 +70,7 @@ public class McsaConfig implements ConfigData {
         setProtection(4, 9, 7, 4, STAR_SHIELD).setToughness(3.0F).setKnockbackRes(0.2F);
         setProtection(4, 9, 7, 4, SWORDBREAKER).setToughness(1.0F).setKnockbackRes(0.5F);
         setProtection(3, 8, 6, 3, TIMS_ARMOUR).setToughness(2.0F);
+        setProtection(1, 1, 1, 1, WHITE_PUMPKIN);
 
     }
 }
