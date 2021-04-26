@@ -55,7 +55,7 @@ public class ArmorsRegistry {
 
             switch (set) {
                 case HARPERS_HEADSET:
-                case WHITE_PUMPKIN:
+                //case WHITE_PUMPKIN:
                     slots = EnumSet.of(HEAD);
                     break;
                 default:

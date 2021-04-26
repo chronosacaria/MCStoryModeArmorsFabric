@@ -5,8 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "EndermanSuitNoAggroMixin",
-    "EnderDefenderNoAggroMixin",
-    "ServerPlayerEntityMixin"
+    "EnderDefenderNoAggroMixin"
   ],
   "client": [
   ],

@@ -154,12 +154,12 @@ public enum ArmorSets implements ArmorMaterial {
             25,
             25,
             ITEM_ARMOR_EQUIP_DIAMOND,
-            () -> {return Ingredient.ofItems(Items.DIAMOND);}),
-    WHITE_PUMPKIN("whitepumpkin", "white_pumpkin",
-            25,
-            25,
-            ITEM_ARMOR_EQUIP_DIAMOND,
-            () -> {return Ingredient.ofItems(Items.PUMPKIN);});
+            () -> {return Ingredient.ofItems(Items.DIAMOND);});
+    //WHITE_PUMPKIN("whitepumpkin", "white_pumpkin",
+    //        25,
+    //        25,
+    //        ITEM_ARMOR_EQUIP_DIAMOND,
+    //        () -> {return Ingredient.ofItems(Items.PUMPKIN);});
 
 
     private static final int[] baseDurability = new int[]{12,14,15,10};

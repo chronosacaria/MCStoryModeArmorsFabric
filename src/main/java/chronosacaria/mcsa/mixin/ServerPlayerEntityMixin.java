@@ -1,4 +1,4 @@
-package chronosacaria.mcsa.mixin;
+/*package chronosacaria.mcsa.mixin;
 
 import chronosacaria.mcsa.effects.ArmorEffects;
 import chronosacaria.mcsa.items.ArmorSets;
@@ -24,4 +24,4 @@ public class ServerPlayerEntityMixin {
             }
         }
     }
-}
+}*/
