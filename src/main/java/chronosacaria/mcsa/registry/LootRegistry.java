@@ -1,5 +1,6 @@
 package chronosacaria.mcsa.registry;
 
+import chronosacaria.mcsa.configs.McsaConfig;
 import chronosacaria.mcsa.items.ArmorSets;
 import chronosacaria.mcsa.registry.ArmorsRegistry;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
@@ -84,15 +85,15 @@ public class LootRegistry {
 
             if (VILLAGE_SMITH_LOOT_TABLE.contains(id)){
                 poolBuilder = FabricLootPoolBuilder.builder();
-                addArmorSet(poolBuilder, ArmorSets.ELLEGAARD, 0.15F);
-                addArmorSet(poolBuilder, ArmorSets.GABRIEL, 0.15F);
-                addArmorSet(poolBuilder, ArmorSets.IVOR, 0.15F);
-                addArmorSet(poolBuilder, ArmorSets.LUKAS, 0.15F);
-                addArmorSet(poolBuilder, ArmorSets.MAGNUS, 0.15F);
-                addArmorSet(poolBuilder, ArmorSets.OLIVIA, 0.15F);
-                addArmorSet(poolBuilder, ArmorSets.PETRA, 0.15F);
-                addArmorSet(poolBuilder, ArmorSets.SOREN, 0.15F);
-                addArmorSet(poolBuilder, ArmorSets.TIMS_ARMOUR, 0.15F);
+                addArmorSet(poolBuilder, ArmorSets.ELLEGAARD,   McsaConfig.config.getCharacterArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.GABRIEL,     McsaConfig.config.getCharacterArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.IVOR,        McsaConfig.config.getCharacterArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.LUKAS,       McsaConfig.config.getCharacterArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.MAGNUS,      McsaConfig.config.getCharacterArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.OLIVIA,      McsaConfig.config.getCharacterArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.PETRA,       McsaConfig.config.getCharacterArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.SOREN,       McsaConfig.config.getCharacterArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.TIMS_ARMOUR, McsaConfig.config.getCharacterArmourSpawnRate());
                 supplier.pool(poolBuilder);
             }
 
@@ -102,11 +103,11 @@ public class LootRegistry {
 
             else if (STRONGHOLD_LOOT_TABLES.contains(id)){
                 poolBuilder = FabricLootPoolBuilder.builder();
-                addArmorSet(poolBuilder, ArmorSets.DRAGONSBANE, 0.01F);
-                addArmorSet(poolBuilder, ArmorSets.ENDER_DEFENDER, 0.01F);
-                addArmorSet(poolBuilder, ArmorSets.GOLDEN_GOLIATH, 0.01F);
-                addArmorSet(poolBuilder, ArmorSets.GOLDEN_GOLIATH_CIRCUITRY, 0.01F);
-                addArmorSet(poolBuilder, ArmorSets.REDSTONE_RIOT, 0.01F);
+                addArmorSet(poolBuilder, ArmorSets.DRAGONSBANE,             McsaConfig.config.getStrongholdArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.ENDER_DEFENDER,          McsaConfig.config.getStrongholdArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.GOLDEN_GOLIATH,          McsaConfig.config.getStrongholdArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.GOLDEN_GOLIATH_CIRCUITRY,McsaConfig.config.getStrongholdArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.REDSTONE_RIOT,           McsaConfig.config.getStrongholdArmourSpawnRate());
                 supplier.pool(poolBuilder);
             }
 
@@ -116,9 +117,9 @@ public class LootRegistry {
 
             else if (TEMPLE_LOOT_TABLES.contains(id)) {
                 poolBuilder = FabricLootPoolBuilder.builder();
-                addArmorSet(poolBuilder, ArmorSets.SHIELD_OF_INFINITY, 0.1F);
-                addArmorSet(poolBuilder, ArmorSets.STAR_SHIELD, 0.1F);
-                addArmorSet(poolBuilder, ArmorSets.SWORDBREAKER, 0.1F);
+                addArmorSet(poolBuilder, ArmorSets.SHIELD_OF_INFINITY,  McsaConfig.config.getTempleArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.STAR_SHIELD,         McsaConfig.config.getTempleArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.SWORDBREAKER,        McsaConfig.config.getTempleArmourSpawnRate());
                 supplier.pool(poolBuilder);
             }
 
@@ -128,8 +129,8 @@ public class LootRegistry {
 
             else if (ARMORER_GIFT_LOOT_TABLE.contains(id)) {
                 poolBuilder = FabricLootPoolBuilder.builder();
-                addArmorSet(poolBuilder, ArmorSets.ADAMANTIUM, 0.15F);
-                addArmorSet(poolBuilder, ArmorSets.CHAMPION_PETRA, 0.15F);
+                addArmorSet(poolBuilder, ArmorSets.ADAMANTIUM,      McsaConfig.config.getHovArmourSpawnRate());
+                addArmorSet(poolBuilder, ArmorSets.CHAMPION_PETRA,  McsaConfig.config.getHovArmourSpawnRate());
                 supplier.pool(poolBuilder);
             }
         })));

@@ -6,6 +6,7 @@ import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
 import me.sargunvohra.mcmods.autoconfig1u.ConfigData;
 import me.sargunvohra.mcmods.autoconfig1u.annotation.Config;
 import me.sargunvohra.mcmods.autoconfig1u.serializer.JanksonConfigSerializer;
+import me.sargunvohra.mcmods.autoconfig1u.shadowed.blue.endless.jankson.Comment;
 import net.minecraft.entity.EquipmentSlot;
 
 import java.util.EnumMap;
@@ -26,10 +27,40 @@ public class McsaConfig implements ConfigData {
     // config contents:
     public EnumMap<ArmorSets, ArmorStats> armorStats = new EnumMap<>(ArmorSets.class);
 
+    @Comment("Character Armour Spawn Rate (Percentage where 1.0 = 100%)")
+    public float characterArmourSpawnRate = 0.15F;
+
+    public float getCharacterArmourSpawnRate(){
+        return characterArmourSpawnRate;
+    }
+
+    @Comment("Stronghold Armour Spawn Rate (Percentage where 1.0 = 100%)")
+    public float strongholdArmourSpawnRate = 0.1F;
+
+    public float getStrongholdArmourSpawnRate(){
+        return strongholdArmourSpawnRate;
+    }
+
+    @Comment("Temple Armour Spawn Rate (Percentage where 1.0 = 100%)")
+    public float templeArmourSpawnRate = 0.1F;
+
+    public float getTempleArmourSpawnRate(){
+        return templeArmourSpawnRate;
+    }
+
+    @Comment("Armourer Hero of the Village Gift Rate (Percentage where 1.0 = 100%)")
+    public float hovArmourSpawnRate = 0.15F;
+
+    public float getHovArmourSpawnRate(){
+        return hovArmourSpawnRate;
+    }
+
     // convenience methods:
     protected ArmorStats setProtection(int head, int chest, int legs, int feet, ArmorSets set) {
         return armorStats.get(set).setProtection(head, chest, legs, feet);
     }
+
+
 
     // set config defaults
     public McsaConfig() {
