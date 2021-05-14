@@ -55,6 +55,9 @@ public class McsaConfig implements ConfigData {
         return hovArmourSpawnRate;
     }
 
+    @Comment("Enable Villager Armour Trades")
+    public boolean enableVillagerArmourTrades = false;
+
     // convenience methods:
     protected ArmorStats setProtection(int head, int chest, int legs, int feet, ArmorSets set) {
         return armorStats.get(set).setProtection(head, chest, legs, feet);
