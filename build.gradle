@@ -14,6 +14,10 @@ repositories {
     jcenter()
 }
 
+minecraft {
+    accessWidener "src/main/resources/mcsa.accesswidener"
+}
+
 dependencies {
     //to change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"

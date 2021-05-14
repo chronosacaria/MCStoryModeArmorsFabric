@@ -3,6 +3,7 @@ package chronosacaria.mcsa;
 import chronosacaria.mcsa.items.ArmorSets;
 import chronosacaria.mcsa.registry.ArmorsRegistry;
 import chronosacaria.mcsa.registry.LootRegistry;
+import chronosacaria.mcsa.registry.TradeRegistry;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.entity.EquipmentSlot;
@@ -25,5 +26,6 @@ public class Mcsa implements ModInitializer {
     public void onInitialize() {
         ArmorsRegistry.init();
         LootRegistry.init();
+        TradeRegistry.registerVillagerOffers();
     }
 }

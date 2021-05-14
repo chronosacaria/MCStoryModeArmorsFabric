@@ -22,6 +22,7 @@
   "mixins": [
     "mcsa.mixins.json"
   ],
+  "accessWidener" : "mcsa.accesswidener",
   "depends": {
     "fabricloader": ">=0.11.1",
     "fabric": "*",
