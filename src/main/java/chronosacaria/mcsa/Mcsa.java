@@ -2,6 +2,7 @@ package chronosacaria.mcsa;
 
 import chronosacaria.mcsa.items.ArmorSets;
 import chronosacaria.mcsa.registry.ArmorsRegistry;
+import chronosacaria.mcsa.registry.BlockRegistry;
 import chronosacaria.mcsa.registry.LootRegistry;
 import chronosacaria.mcsa.registry.TradeRegistry;
 import net.fabricmc.api.ModInitializer;
@@ -25,6 +26,7 @@ public class Mcsa implements ModInitializer {
     @Override
     public void onInitialize() {
         ArmorsRegistry.init();
+        BlockRegistry.registerBlocks();
         LootRegistry.init();
         TradeRegistry.registerVillagerOffers();
     }

@@ -1,9 +1,7 @@
-/*package chronosacaria.mcsa.mixin;
+package chronosacaria.mcsa.mixin;
 
 import chronosacaria.mcsa.effects.ArmorEffects;
-import chronosacaria.mcsa.items.ArmorSets;
-import chronosacaria.mcsa.registry.ArmorsRegistry;
-import net.minecraft.entity.EquipmentSlot;
+import chronosacaria.mcsa.registry.BlockRegistry;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.network.ServerPlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
@@ -19,9 +17,9 @@ public class ServerPlayerEntityMixin {
         if (playerEntity.isAlive()){
             ItemStack helmetStack = playerEntity.inventory.armor.get(3);
 
-            if (helmetStack.getItem() == ArmorsRegistry.armorItems.get(ArmorSets.WHITE_PUMPKIN).get(EquipmentSlot.HEAD).asItem()) {
+            if (helmetStack.getItem() == BlockRegistry.CARVED_WHITE_PUMPKIN_BLOCK.asItem()){
                 ArmorEffects.applyNightVision(playerEntity);
             }
         }
     }
-}*/
+}
