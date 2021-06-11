@@ -2,12 +2,11 @@ package chronosacaria.mcsa.registry;
 
 import chronosacaria.mcsa.configs.McsaConfig;
 import chronosacaria.mcsa.items.ArmorSets;
-import chronosacaria.mcsa.registry.ArmorsRegistry;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
-import net.minecraft.loot.BinomialLootTableRange;
 import net.minecraft.loot.LootTables;
 import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.provider.number.BinomialLootNumberProvider;
 import net.minecraft.util.Identifier;
 
 import java.util.Arrays;
@@ -138,7 +137,7 @@ public class LootRegistry {
     public static void addArmorSet(FabricLootPoolBuilder poolBuilder, ArmorSets set, float p){
         ArmorsRegistry.armorItems.get(set).values()
                 .forEach((item -> {
-                    poolBuilder.rolls(new BinomialLootTableRange(1, p));
+                    poolBuilder.rolls(BinomialLootNumberProvider.create(1, p));
                     poolBuilder.with(ItemEntry.builder(item));
                 }));
     }
