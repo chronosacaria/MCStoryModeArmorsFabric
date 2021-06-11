@@ -111,5 +111,8 @@
   "item.mcsa.tim_helmet"                            : "头盔的Tim",
   "item.mcsa.tim_chestplate"                        : "胸甲的Tim",
   "item.mcsa.tim_leggings"                          : "护腿的Tim",
-  "item.mcsa.tim_boots"                             : "靴子的Tim"
+  "item.mcsa.tim_boots"                             : "靴子的Tim",
+
+  "block.mcsa.white_pumpkin"                         : "白色南瓜",
+  "block.mcsa.carved_white_pumpkin"                  : "雕刻过的白色南瓜"
 }

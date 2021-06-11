@@ -4,8 +4,10 @@
   "package": "chronosacaria.mcsa.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "EnderDefenderNoAggroMixin",
     "EndermanSuitNoAggroMixin",
-    "EnderDefenderNoAggroMixin"
+    "MobEntityMixin",
+    "ServerPlayerEntityMixin"
   ],
   "client": [
   ],

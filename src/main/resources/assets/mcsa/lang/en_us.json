@@ -111,5 +111,8 @@
   "item.mcsa.tim_helmet"                            : "Tim's Hat",
   "item.mcsa.tim_chestplate"                        : "Tim's Chestplate",
   "item.mcsa.tim_leggings"                          : "Tim's Leggings",
-  "item.mcsa.tim_boots"                             : "Tim's Boots"
+  "item.mcsa.tim_boots"                             : "Tim's Boots",
+
+  "block.mcsa.white_pumpkin"                         : "White Pumpkin",
+  "block.mcsa.carved_white_pumpkin"                  : "Carved White Pumpkin"
 }
