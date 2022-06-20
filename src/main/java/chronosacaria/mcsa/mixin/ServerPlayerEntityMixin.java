@@ -15,7 +15,7 @@ public class ServerPlayerEntityMixin {
     public void tick (CallbackInfo ci){
         ServerPlayerEntity playerEntity = (ServerPlayerEntity) (Object) this;
         if (playerEntity.isAlive()){
-            ItemStack helmetStack = playerEntity.inventory.armor.get(3);
+            ItemStack helmetStack = playerEntity.getInventory().armor.get(3);
 
             if (helmetStack.getItem() == BlockRegistry.CARVED_WHITE_PUMPKIN_BLOCK.asItem()){
                 ArmorEffects.applyNightVision(playerEntity);

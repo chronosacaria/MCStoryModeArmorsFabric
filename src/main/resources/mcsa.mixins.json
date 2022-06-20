@@ -6,7 +6,7 @@
   "mixins": [
     "EnderDefenderNoAggroMixin",
     "EndermanSuitNoAggroMixin",
-    "MobEntityMixin",
+    "LivingEntityMixin",
     "ServerPlayerEntityMixin"
   ],
   "client": [

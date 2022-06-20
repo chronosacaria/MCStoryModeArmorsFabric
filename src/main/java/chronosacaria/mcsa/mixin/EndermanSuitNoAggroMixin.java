@@ -15,10 +15,10 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class EndermanSuitNoAggroMixin {
     @Inject(method = "isPlayerStaring", at = @At("HEAD"), cancellable = true)
     private void isPlayerStaring(PlayerEntity player, CallbackInfoReturnable<Boolean> cir){
-        ItemStack helmetStack = player.inventory.armor.get(3);
-        ItemStack chestplateStack = player.inventory.armor.get(2);
-        ItemStack leggingsStack = player.inventory.armor.get(1);
-        ItemStack bootsStack = player.inventory.armor.get(0);
+        ItemStack helmetStack = player.getInventory().armor.get(3);
+        ItemStack chestplateStack = player.getInventory().armor.get(2);
+        ItemStack leggingsStack = player.getInventory().armor.get(1);
+        ItemStack bootsStack = player.getInventory().armor.get(0);
 
         if (helmetStack.getItem() == ArmorsRegistry.armorItems.get(ArmorSets.ENDERMAN_SOREN).get(EquipmentSlot.HEAD).asItem()
                 && chestplateStack.getItem() == ArmorsRegistry.armorItems.get(ArmorSets.ENDERMAN_SOREN).get(EquipmentSlot.CHEST).asItem()
